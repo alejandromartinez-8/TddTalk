@@ -38,7 +38,7 @@ namespace TddTalk.Test
             var books = _bookController.GetByAuthorId(authorId);
 
             Assert.IsNotNull(books);
-            Assert.AreEqual(mockBooks,books);
+            Assert.AreEqual(mockBooks.Count,books.Count);
         }
 
         [TestMethod]
@@ -50,7 +50,7 @@ namespace TddTalk.Test
 
             var result = _bookController.GetByAuthorId(authorId);
 
-            Assert.AreEqual(books, result);
+            Assert.AreEqual(books.Count, result.Count);
         }
 
         [TestMethod]

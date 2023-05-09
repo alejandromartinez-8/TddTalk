@@ -7,7 +7,6 @@ namespace TddTalk.Test
     [TestClass]
     public class BookRepositoryTest
     {
-        private BookDbContext _bookContext;
         private BookRepository _bookRepository;
         [TestInitialize]
         public void Setup()

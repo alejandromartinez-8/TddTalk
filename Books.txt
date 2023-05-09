@@ -1,6 +1,73 @@
-1,Test-Driven Development by example,1,9780321146533,01-01-2000
-2,Extreme programming explained,1,9780134051994,01-01-1999
-3,Implementation patterns,1,9780132702553,01-01-2007
-4,Refactoring,1,9780134757599,01-01-1999
-5,Growing Object-Oriented Software Guided by Tests,2,9780321503626,01-01-2009
-6,Java To Kotlin,2,9781492082279,01-01-2021
+[
+	{
+		"Id":1,
+		"Title":"Test-Driven Development by example",
+		"AuthorId":1,
+		"ISBN:"9780321146533",
+		"CreationDate":"01-01-2000",
+		"Author":{
+			"Id":1,
+			"FirstName":"Kent",
+			"LastName":"Beck"
+		}
+	},
+		"Id":2,
+		"Title":"Extreme programming explained",
+		"AuthorId":1,
+		"ISBN:"9780134051994",
+		"CreationDate":"01-01-1999",
+		"Author":{
+			"Id":1,
+			"FirstName":"Kent",
+			"LastName":"Beck"
+		}
+	},
+	{
+		"Id":3,
+		"Title":"Implementation patterns",
+		"AuthorId":1,
+		"ISBN:"9780132702553",
+		"CreationDate":"01-01-2007",
+		"Author":{
+			"Id":1,
+			"FirstName":"Kent",
+			"LastName":"Beck"
+		}
+	},
+	{
+		"Id":4,
+		"Title":"Refactoring",
+		"AuthorId":1,
+		"ISBN:"9780134757599",
+		"CreationDate":"01-01-1999",
+		"Author":{
+			"Id":1,
+			"FirstName":"Kent",
+			"LastName":"Beck"
+		}
+	},
+	{
+		"Id":5,
+		"Title":"Growing Object-Oriented Software Guided by Tests",
+		"AuthorId":2,
+		"ISBN:"9780321503626",
+		"CreationDate":"01-01-2009",
+		"Author":{
+			"Id":2,
+			"FirstName":"Nat",
+			"LastName":"Price"
+		}
+	},
+	{
+		"Id":6,
+		"Title":"Java To Kotlin",
+		"AuthorId":2,
+		"ISBN:"9781492082279",
+		"CreationDate":"01-01-2021",
+		"Author":{
+			"Id":2,
+			"FirstName":"Nat",
+			"LastName":"Price"
+		}
+	}
+]

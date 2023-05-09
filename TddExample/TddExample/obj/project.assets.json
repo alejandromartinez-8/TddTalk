@@ -88,6 +88,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "TddExample.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TddExample.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TddExample.Services.dll": {}
+        }
       }
     }
   },
@@ -216,11 +226,17 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "TddExample.Services/1.0.0": {
+      "type": "project",
+      "path": "../TddExample.Services/TddExample.Services.csproj",
+      "msbuildProject": "../TddExample.Services/TddExample.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "TddExample.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -256,7 +272,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\abelderrain\\Documents\\TddTalk\\Repo\\TddExample\\TddExample.Services\\TddExample.Services.csproj": {
+              "projectPath": "C:\\Users\\abelderrain\\Documents\\TddTalk\\Repo\\TddExample\\TddExample.Services\\TddExample.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

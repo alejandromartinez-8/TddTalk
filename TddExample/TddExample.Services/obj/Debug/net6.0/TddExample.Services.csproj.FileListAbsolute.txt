@@ -1,0 +1,12 @@
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\bin\Debug\net6.0\TddExample.Services.deps.json
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\bin\Debug\net6.0\TddExample.Services.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\bin\Debug\net6.0\TddExample.Services.pdb
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\TddExample.Services.csproj.AssemblyReference.cache
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\TddExample.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\TddExample.Services.AssemblyInfoInputs.cache
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\TddExample.Services.AssemblyInfo.cs
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\TddExample.Services.csproj.CoreCompileInputs.cache
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\TddExample.Services.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\refint\TddExample.Services.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\TddExample.Services.pdb
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\ref\TddExample.Services.dll

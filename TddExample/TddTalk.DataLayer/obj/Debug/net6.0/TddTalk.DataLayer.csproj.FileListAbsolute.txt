@@ -1,0 +1,12 @@
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\bin\Debug\net6.0\TddTalk.DataLayer.deps.json
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\bin\Debug\net6.0\TddTalk.DataLayer.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\bin\Debug\net6.0\TddTalk.DataLayer.pdb
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\obj\Debug\net6.0\TddTalk.DataLayer.csproj.AssemblyReference.cache
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\obj\Debug\net6.0\TddTalk.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\obj\Debug\net6.0\TddTalk.DataLayer.AssemblyInfoInputs.cache
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\obj\Debug\net6.0\TddTalk.DataLayer.AssemblyInfo.cs
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\obj\Debug\net6.0\TddTalk.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\obj\Debug\net6.0\TddTalk.DataLayer.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\obj\Debug\net6.0\refint\TddTalk.DataLayer.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\obj\Debug\net6.0\TddTalk.DataLayer.pdb
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.DataLayer\obj\Debug\net6.0\ref\TddTalk.DataLayer.dll

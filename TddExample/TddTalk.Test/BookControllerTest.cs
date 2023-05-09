@@ -33,24 +33,24 @@ namespace TddTalk.Test
 
             var mockBooks = new List<BookSearchDto>() { book };
 
-            _bookService?.Setup(s => s.GetByAuthorIdAsync(authorId)).ReturnsAsync(mockBooks);
+            _bookService?.Setup(s => s.GetByAuthorId(authorId)).Returns(mockBooks);
 
             var books = _bookController.GetByAuthorId(authorId);
 
             Assert.IsNotNull(books);
-            Assert.AreEqual(books.Result, mockBooks);
+            Assert.AreEqual(mockBooks,books);
         }
 
         [TestMethod]
-        public void GetByAuthorIdShouldThrowExceptionIfAuthorDoesNotExists()
+        public void GetByAuthorIdShouldReturnAnEmptyListIfAuthorDoesNotExists()
         {
             var authorId = 1;
-            var exception = new Exception("Author does not exist");
-            _bookService?.Setup(s => s.GetByAuthorIdAsync(authorId)).Throws(exception);
+            var books = new List<BookSearchDto>();
+            _bookService?.Setup(s => s.GetByAuthorId(authorId)).Returns(books);
 
             var result = _bookController.GetByAuthorId(authorId);
 
-            Assert.AreEqual(result.Exception.InnerException, exception);
+            Assert.AreEqual(books, result);
         }
 
         [TestMethod]
@@ -59,12 +59,12 @@ namespace TddTalk.Test
             var authorId = 1;
             var mockBooks = new List<BookSearchDto>();
 
-            _bookService?.Setup(s => s.GetByAuthorIdAsync(authorId)).ReturnsAsync(mockBooks);
+            _bookService?.Setup(s => s.GetByAuthorId(authorId)).Returns(mockBooks);
 
             var books = _bookController.GetByAuthorId(authorId);
 
             Assert.IsNotNull(books);
-            Assert.AreEqual(books.Result.Count, 0);
+            Assert.AreEqual(0, books.Count);
         }
 
     }

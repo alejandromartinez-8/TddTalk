@@ -17,9 +17,9 @@ namespace TddExample.Controllers
         }
 
         [HttpGet]
-        public async Task<List<BookSearchDto>> GetByAuthorId(int authorId)
+        public List<BookSearchDto> GetByAuthorId(int authorId)
         {
-            return await _bookService.GetByAuthorIdAsync(authorId);
+            return _bookService.GetByAuthorId(authorId);
         }
     }
 }

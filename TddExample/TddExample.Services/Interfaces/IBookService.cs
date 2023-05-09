@@ -9,6 +9,6 @@ namespace TddExample.Services.Interfaces
 {
     public interface IBookService
     {
-        Task<List<BookSearchDto>> GetByAuthorIdAsync(int authorId);
+        List<BookSearchDto> GetByAuthorId(int authorId);
     }
 }

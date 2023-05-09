@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TddExample.Services\TddExample.Services.csproj" />
+    <ProjectReference Include="..\TddExample\TddExample.csproj" />
     <ProjectReference Include="..\TddTalk.DataLayer\TddTalk.DataLayer.csproj" />
   </ItemGroup>
 

@@ -113,3 +113,14 @@ C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\obj\Debug\ne
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\obj\Debug\net6.0\ref\TddTalk.Test.dll
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\TddExample.Services.dll
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\TddExample.Services.pdb
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\TddExample.deps.json
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\TddExample.runtimeconfig.json
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\appsettings.json
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\TddExample.exe
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\TddExample.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\TddExample.pdb

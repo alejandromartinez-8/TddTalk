@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TddExample.Services.Model;
 using TddExample.Services.Services;
 using TddTalk.DataLayer.Interfaces;
 using TddTalk.DataLayer.Model;
@@ -28,38 +29,29 @@ namespace TddTalk.Test
             var books = _bookService.GetByAuthorId(1);
 
             Assert.IsNotNull(books);
-            Assert.IsInstanceOfType(books, typeof(IEnumerable<Book>));
+            Assert.IsInstanceOfType(books, typeof(IEnumerable<BookSearchDto>));
         }
 
         [TestMethod]
         public void ShouldGetTheListWithBooksForAuthorId2()
         {
-            var bookList = new List<Book>()
+            var bookList = new List<BookSearchDto>()
             {
-                new Book
+                new BookSearchDto
                     {
                     Id = 5,
                     Title="Growing Object-Oriented Software Guided by Tests",
                     AuthorId=2,
                     ISBN="9780321503626",
                     CreationDate=new DateTime(2009,01,01),
-                    Author= new Author{
-                        Id=2,
-                        FirstName="Nat",
-                        LastName="Price"
-                        }
-                    },
-                new Book{
+                }, 
+                new BookSearchDto{
                     Id=6,
                     Title="Java To Kotlin",
                     AuthorId=2,
                     ISBN="9781492082279",
-                    CreationDate= new DateTime(2021,01,01),
-                    Author = new Author{
-                        Id=2,
-                        FirstName="Nat",
-                        LastName="Price"
-                    }
+                    CreationDate= new DateTime(2021,01,01)
+                    
                 }
             };
             var books = _bookService.GetByAuthorId(2);

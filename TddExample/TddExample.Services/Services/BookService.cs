@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TddExample.Services.Interfaces;
+using TddExample.Services.Model;
 using TddTalk.DataLayer.Interfaces;
 using TddTalk.DataLayer.Model;
 
@@ -18,9 +19,17 @@ namespace TddExample.Services.Services
             _bookRepository = bookRepository;
         }
 
-        public IEnumerable<Book> GetByAuthorId(int authorId)
+        public IEnumerable<BookSearchDto> GetByAuthorId(int authorId)
         {
-            return _bookRepository.GetByAuthorId(authorId);
+            var books =  _bookRepository.GetByAuthorId(authorId);
+            return books.Select(b => new BookSearchDto
+            {
+                Id = b.Id,
+                ISBN = b.ISBN,
+                Title = b.Title,
+                AuthorId = b.AuthorId,
+                CreationDate = b.CreationDate,
+            });
         }
     }
 }

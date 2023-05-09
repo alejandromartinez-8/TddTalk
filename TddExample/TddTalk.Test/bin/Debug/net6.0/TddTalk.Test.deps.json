@@ -1210,8 +1210,16 @@
         }
       },
       "TddExample.Services/1.0.0": {
+        "dependencies": {
+          "TddTalk.DataLayer": "1.0.0"
+        },
         "runtime": {
           "TddExample.Services.dll": {}
+        }
+      },
+      "TddTalk.DataLayer/1.0.0": {
+        "runtime": {
+          "TddTalk.DataLayer.dll": {}
         }
       },
       "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {
@@ -1964,6 +1972,11 @@
       "sha512": ""
     },
     "TddExample.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TddTalk.DataLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -63,8 +63,16 @@
         }
       },
       "TddExample.Services/1.0.0": {
+        "dependencies": {
+          "TddTalk.DataLayer": "1.0.0"
+        },
         "runtime": {
           "TddExample.Services.dll": {}
+        }
+      },
+      "TddTalk.DataLayer/1.0.0": {
+        "runtime": {
+          "TddTalk.DataLayer.dll": {}
         }
       }
     }
@@ -118,6 +126,11 @@
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
     },
     "TddExample.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TddTalk.DataLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -92,11 +92,24 @@
       "TddExample.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TddTalk.DataLayer": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TddExample.Services.dll": {}
         },
         "runtime": {
           "bin/placeholder/TddExample.Services.dll": {}
+        }
+      },
+      "TddTalk.DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TddTalk.DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TddTalk.DataLayer.dll": {}
         }
       }
     }
@@ -231,6 +244,11 @@
       "type": "project",
       "path": "../TddExample.Services/TddExample.Services.csproj",
       "msbuildProject": "../TddExample.Services/TddExample.Services.csproj"
+    },
+    "TddTalk.DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../TddTalk.DataLayer/TddTalk.DataLayer.csproj",
+      "msbuildProject": "../TddTalk.DataLayer/TddTalk.DataLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -113,3 +113,5 @@ C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\obj\Debug\ne
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\obj\Debug\net6.0\TddTalk.Test.pdb
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\obj\Debug\net6.0\TddTalk.Test.genruntimeconfig.cache
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\obj\Debug\net6.0\ref\TddTalk.Test.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\TddTalk.DataLayer.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddTalk.Test\bin\Debug\net6.0\TddTalk.DataLayer.pdb

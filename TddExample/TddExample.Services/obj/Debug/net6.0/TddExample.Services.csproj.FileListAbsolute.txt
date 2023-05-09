@@ -10,3 +10,6 @@ C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\D
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\refint\TddExample.Services.dll
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\TddExample.Services.pdb
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\ref\TddExample.Services.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\bin\Debug\net6.0\TddTalk.DataLayer.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\bin\Debug\net6.0\TddTalk.DataLayer.pdb
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample.Services\obj\Debug\net6.0\TddExample.Services.csproj.CopyComplete

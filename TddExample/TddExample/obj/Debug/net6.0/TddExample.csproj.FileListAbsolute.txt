@@ -32,3 +32,5 @@ C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample\obj\Debug\net6
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample\obj\Debug\net6.0\TddExample.pdb
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample\obj\Debug\net6.0\TddExample.genruntimeconfig.cache
 C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample\obj\Debug\net6.0\ref\TddExample.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample\bin\Debug\net6.0\TddTalk.DataLayer.dll
+C:\Users\abelderrain\Documents\TddTalk\Repo\TddExample\TddExample\bin\Debug\net6.0\TddTalk.DataLayer.pdb

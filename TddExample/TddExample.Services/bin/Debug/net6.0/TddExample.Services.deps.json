@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "TddExample.Services/1.0.0": {
+        "dependencies": {
+          "TddTalk.DataLayer": "1.0.0"
+        },
         "runtime": {
           "TddExample.Services.dll": {}
+        }
+      },
+      "TddTalk.DataLayer/1.0.0": {
+        "runtime": {
+          "TddTalk.DataLayer.dll": {}
         }
       }
     }
   },
   "libraries": {
     "TddExample.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TddTalk.DataLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

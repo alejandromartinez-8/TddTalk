@@ -24,9 +24,17 @@ namespace TddTalk.DataLayer.Context
 
         private IEnumerable<T> ReadDataFromFile<T>(string filePath)
         {
-            // Leer los datos desde el archivo y deserializarlos en una lista de objetos del tipo T
-            string jsonData = File.ReadAllText(filePath);
-            return JsonConvert.DeserializeObject<IEnumerable<T>>(jsonData);
+            try
+            {
+                // Leer los datos desde el archivo y deserializarlos en una lista de objetos del tipo T
+                string jsonData = File.ReadAllText(filePath);
+                return JsonConvert.DeserializeObject<IEnumerable<T>>(jsonData);
+            }
+            catch (DirectoryNotFoundException e)
+            {
+                throw;
+            }
+           
         }
 
         private void WriteDataToFile<T>(string filePath, IEnumerable<T> data)

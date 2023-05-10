@@ -19,7 +19,7 @@ namespace TddExample.Controllers
         [HttpGet]
         public List<BookSearchDto> GetByAuthorId(int authorId)
         {
-            return _bookService.GetByAuthorId(authorId).ToList();
+            return _bookService.GetByAuthorId(authorId);
         }
     }
 }

@@ -16,6 +16,8 @@ namespace TddTalk.Test
         private int _authorId = 2;
         private List<Book> _books;
         private List<BookSearchDto> _mockBooks;
+        private Mock<IBookRepository> _bookRepository;
+        private BookService _bookService;
 
         [TestInitialize] 
         public void SetUp() 

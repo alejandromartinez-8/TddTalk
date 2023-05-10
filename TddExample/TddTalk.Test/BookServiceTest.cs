@@ -24,7 +24,7 @@ namespace TddTalk.Test
         }
 
         [TestMethod]
-        public void ShouldReturnAnIEnumerableOfBooks()
+        public void Should_GetAListOfBooks_When_AuthorExists()
         {
             var books = _bookService.GetByAuthorId(1);
 
@@ -33,7 +33,7 @@ namespace TddTalk.Test
         }
 
         [TestMethod]
-        public void ShouldGetTheListWithBooksForAuthorId2()
+        public void Should_GetTheListWithBooks_When_AuthorIdIsEqualTo2()
         {
             var bookList = new List<BookSearchDto>()
             {

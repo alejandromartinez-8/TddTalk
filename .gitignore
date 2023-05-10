@@ -51,3 +51,6 @@ TddExample/TddTalk.Test/bin/Debug/net6.0/TddExample.pdb
 /TddExample/TddTalk.DataLayer/obj/Debug/net6.0/TddTalk.DataLayer.dll
 /TddExample/TddTalk.DataLayer/bin/Debug/net6.0/TddTalk.DataLayer.pdb
 /TddExample/TddTalk.DataLayer/bin/Debug/net6.0/TddTalk.DataLayer.dll
+/TddExample/TddExample.Services/obj/Debug/net6.0/TddExample.Services.csproj.AssemblyReference.cache
+/TddExample/TddExample.Services/bin/Debug/net6.0/TddTalk.DataLayer.dll
+/TddExample/TddExample.Services/bin/Debug/net6.0/TddTalk.DataLayer.pdb

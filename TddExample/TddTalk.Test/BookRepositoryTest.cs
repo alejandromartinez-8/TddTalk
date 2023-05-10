@@ -50,7 +50,8 @@ namespace TddTalk.Test
         public void Should_GetAnException_When_DataBaseDoesNotExist()
         {
             _bookRepository = new BookRepository("testingError");
-            var books = _bookRepository.GetByAuthorId(1);
+
+            Assert.ThrowsException<DirectoryNotFoundException>(() => _bookRepository.GetByAuthorId(1));
 
         }
     }

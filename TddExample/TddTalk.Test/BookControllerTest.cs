@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TddExample.Controllers;
 using TddExample.Services.Interfaces;
 using TddExample.Services.Services;
 using TddTalk.DataLayer.Repository;

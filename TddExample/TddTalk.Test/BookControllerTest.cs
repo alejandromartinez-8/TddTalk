@@ -10,6 +10,8 @@ namespace TddTalk.Test
     {
         private BookController? _bookController;
         private Mock<IBookService>? _bookService;
+        private int _authorId = 1;
+        private List<BookSearchDto> _mockBooks= new List<BookSearchDto>();
 
         [TestInitialize]
         public void Setup()
@@ -21,47 +23,45 @@ namespace TddTalk.Test
         [TestMethod]
         public void Should_GetAListOfBooks_When_AnAuthorHasBooks()
         {
-            var authorId = 1;
             var book = new BookSearchDto
             {
-                AuthorId = authorId,
+                AuthorId = _authorId,
                 Id = 1,
                 Title = "Test Book",
                 ISBN= "1",
                 CreationDate = DateTime.Now,
             };
 
-            var mockBooks = new List<BookSearchDto>() { book };
+            _mockBooks = new List<BookSearchDto>() { book };
 
-            _bookService?.Setup(s => s.GetByAuthorId(authorId)).Returns(mockBooks);
+            _bookService?.Setup(s => s.GetByAuthorId(_authorId)).Returns(_mockBooks);
 
-            var books = _bookController.GetByAuthorId(authorId);
+            var books = _bookController.GetByAuthorId(_authorId);
 
             Assert.IsNotNull(books);
-            Assert.AreEqual(mockBooks,books);
+            Assert.AreEqual(_mockBooks, books);
         }
 
         [TestMethod]
         public void Should_GetAnEmptyList_When_AuthorDoesNotExist()
         {
-            var authorId = 1;
-            var books = new List<BookSearchDto>();
-            _bookService?.Setup(s => s.GetByAuthorId(authorId)).Returns(books);
+            _authorId = 4;
 
-            var result = _bookController.GetByAuthorId(authorId);
+            _bookService?.Setup(s => s.GetByAuthorId(_authorId)).Returns(_mockBooks);
 
-            Assert.AreEqual(books, result);
+            var result = _bookController.GetByAuthorId(_authorId);
+
+            Assert.AreEqual(_mockBooks, result);
         }
 
         [TestMethod]
         public void Should_GetAnEmptyList_When_AuthorDoesNotHaveAnyBook()
         {
-            var authorId = 1;
-            var mockBooks = new List<BookSearchDto>();
+            _authorId = 3;
 
-            _bookService?.Setup(s => s.GetByAuthorId(authorId)).Returns(mockBooks);
+            _bookService?.Setup(s => s.GetByAuthorId(_authorId)).Returns(_mockBooks);
 
-            var books = _bookController.GetByAuthorId(authorId);
+            var books = _bookController.GetByAuthorId(_authorId);
 
             Assert.IsNotNull(books);
             Assert.AreEqual(0, books.Count);

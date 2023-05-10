@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TddExample.Services.Model;
-using TddExample.Services.Services;
 using TddTalk.DataLayer.Interfaces;
 using TddTalk.DataLayer.Model;
 using TddTalk.DataLayer.Repository;

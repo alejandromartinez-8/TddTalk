@@ -16,7 +16,7 @@ namespace TddTalk.Test
         }
 
         [TestMethod]
-        public void BooksShouldHaveTitleISBNCreationDateAuthorIdAndId()
+        public void Book_Should_HaveTitleISBNCreationDateAuthorIdAndId_When_Getbooks()
         {
             var books = _bookRepository.GetByAuthorId(1);
 
@@ -28,7 +28,7 @@ namespace TddTalk.Test
             Assert.IsNotNull(books.FirstOrDefault().AuthorId);
         }
         [TestMethod]
-        public void AuthorShouldHaveFirstNameLastNameAndId()
+        public void Author_Should_HaveFirstNameLastNameAndId_When_GetBooks()
         {
             
             var books = _bookRepository.GetByAuthorId(1);
@@ -39,12 +39,19 @@ namespace TddTalk.Test
             Assert.IsNotNull(books.FirstOrDefault().Author.LastName);
         }
         [TestMethod]
-        public void ShouldGetAListOfBooksWithSomeElements()
+        public void Should_GetAListOfBooksWithSomeElements_When_HaveResults()
         {
             var books = _bookRepository.GetByAuthorId(1);
 
             Assert.IsNotNull(books);
             Assert.AreNotSame(0, books.Count());
+        }
+        [TestMethod]
+        public void Should_GetAnException_When_DataBaseDoesNotExist()
+        {
+            _bookRepository = new BookRepository("testingError");
+
+            Assert.ThrowsException<DirectoryNotFoundException>(() => _bookRepository.GetByAuthorId(1));
         }
     }
 }

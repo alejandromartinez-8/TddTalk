@@ -19,7 +19,15 @@ namespace TddTalk.DataLayer.Repository
 
         public IEnumerable<Book> GetByAuthorId(int authorId)
         {
-            return _context.Books.Where(b => b.AuthorId== authorId);
+            try
+            {
+                return _context.Books.Where(b => b.AuthorId == authorId);
+            }
+            catch
+            {
+                throw;
+            }
+            
         }
 
         public void SaveChanges()

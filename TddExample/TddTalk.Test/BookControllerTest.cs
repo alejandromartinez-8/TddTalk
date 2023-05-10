@@ -22,7 +22,7 @@ namespace TddTalk.Test
         }
 
         [TestMethod]
-        public void ShouldReturnListWithBooksRelatedToSpecifiedAuthor()
+        public void Should_GetAListOfBooks_When_AnAuthorHasBooks()
         {
             var books = _bookController.GetByAuthorId(1);
 
@@ -31,7 +31,7 @@ namespace TddTalk.Test
         }
 
         [TestMethod]
-        public void ShouldReturnAnEmptyListIfTheAuthorDoesNotExist()
+        public void Should_GetAnEmptyList_When_AuthorDoesNotExist()
         {
             var books = _bookController.GetByAuthorId(4);
 
@@ -41,7 +41,7 @@ namespace TddTalk.Test
         }
 
         [TestMethod]
-        public void ShouldReturnAnEmptyListIfTheAuthorDoesNotHaveAnyBook()
+        public void Should_GetAnEmptyList_When_AuthorDoesNotHaveAnyBook()
         {
             var books = _bookController.GetByAuthorId(3);
 

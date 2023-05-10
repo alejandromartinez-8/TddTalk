@@ -1,6 +1,6 @@
-using TddTalk.DataLayer.Context;
+
 using TddTalk.DataLayer.Model;
-using TddTalk.DataLayer.Repository;
+
 
 namespace TddTalk.Test
 {

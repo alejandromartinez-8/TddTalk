@@ -19,7 +19,7 @@ namespace TddTalk.Test
         }
 
         [TestMethod]
-        public void GetByAuthorIdShouldReturnAListOfBooks()
+        public void Should_GetAListOfBooks_When_AnAuthorHasBooks()
         {
             var authorId = 1;
             var book = new BookSearchDto
@@ -42,7 +42,7 @@ namespace TddTalk.Test
         }
 
         [TestMethod]
-        public void GetByAuthorIdShouldReturnAnEmptyListIfAuthorDoesNotExists()
+        public void Should_GetAnEmptyList_When_AuthorDoesNotExist()
         {
             var authorId = 1;
             var books = new List<BookSearchDto>();
@@ -54,7 +54,7 @@ namespace TddTalk.Test
         }
 
         [TestMethod]
-        public void GetByAuthorIdShouldReturnAEmptyListIfAuthorDoesNotHaveAnyBook()
+        public void Should_GetAnEmptyList_When_AuthorDoesNotHaveAnyBook()
         {
             var authorId = 1;
             var mockBooks = new List<BookSearchDto>();

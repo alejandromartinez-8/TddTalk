@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using TddExample.Services.Interfaces;
 using TddExample.Services.Model;
+using TddExample.Services.Services;
+using TddTalk.DataLayer.Interfaces;
 using TddTalk.DataLayer.Model;
 
 namespace TddTalk.Test

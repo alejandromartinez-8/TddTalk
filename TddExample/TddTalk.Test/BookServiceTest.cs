@@ -23,7 +23,7 @@ namespace TddTalk.Test
             _bookService = new BookService(_bookRepository.Object);
         }
         [TestMethod]
-        public void ShouldReturnAListOfBooks()
+        public void Should_GetAListOfBooks_When_AuthorExists()
         {
             var authorId = 2;
             var books = new List<Book>()
@@ -63,7 +63,7 @@ namespace TddTalk.Test
         }
 
         [TestMethod]
-        public void ShouldGetTheListWithBooksForAuthorId2()
+        public void Should_GetTheListWithBooks_When_AuthorIdIsEqualTo2()
         {
             var authorId = 2;
             var books = new List<Book>()

@@ -14,4 +14,8 @@
     <ProjectReference Include="..\TddExample.Services\TddExample.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

@@ -7,7 +7,7 @@ namespace TddTalk.Test
     [TestClass]
     public class BookRepositoryTest
     {
-        private BookRepository _bookRepository;
+
         [TestInitialize]
         public void Setup()
         {
@@ -49,6 +49,8 @@ namespace TddTalk.Test
         [TestMethod]
         public void Should_GetAnException_When_DataBaseDoesNotExist()
         {
+            _bookRepository = new BookRepository("testingError");
+            var books = _bookRepository.GetByAuthorId(1);
 
         }
     }

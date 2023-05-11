@@ -13,3 +13,7 @@ We will start with London School and then we will show Chicago School approach.
 
 For Chicago we can repeat the same steps of London but starting from the bottom layer. The idea of the TDD is the same starting from test 
 and then write the code but the difference is the entry point and the way to think the test that you will need.
+
+## About the problem we will work with
+
+We'll talk about books and authors.. An Author can have several authors. We'll work with a controller , services and models. 
